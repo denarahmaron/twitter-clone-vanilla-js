@@ -32,25 +32,3 @@ To run this project locally:
 3. Log in using login.html.
 4. Post new tweets, which will be stored in local storage.
 5. View and manage your profile in profile.html.
-
-##Project Structure
-twitter-clone-vanilla-js/
-│
-├── assets/
-│   ├── css/
-│   │   └── tailwind.css      # Tailwind CSS file
-│   └── js/
-│       ├── addTwitt.js       # Logic to add new tweets
-│       ├── addUser.js        # Logic to add new users
-│       ├── manageTwitts.js   # Logic to manage tweet data
-│       ├── Twitt.js          # Twitt class for tweet objects (OOP)
-│       ├── User.js           # User class for user objects (OOP)
-│       ├── userProfile.js    # Logic to handle user profile data
-│       ├── userSignin.js     # Logic to handle user login
-│
-├── index.html                # Homepage
-├── login.html                # Login page
-├── register.html             # Register page
-├── profile.html              # Profile page
-├── README.md                 # Project documentation
-└── .gitignore                # Ignore unnecessary files
